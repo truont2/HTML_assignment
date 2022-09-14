@@ -38,9 +38,8 @@ form {
 input:focus {
     outline: none;
     border-color: rgb(122, 137, 223);
-    box-shadow: 0 0 10px rgb(122, 137, 223);
+    box-shadow: rgb(122, 137, 223) 0px 0px 16px;
 }
-
 .row {
     display: flex;
     justify-content: space-between;
