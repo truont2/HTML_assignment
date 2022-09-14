@@ -17,14 +17,10 @@ body {
 }
 
 .form-container {
-  width: 40%;
+  width: 30%;
 }
 
-@media screen and (max-width: 768px) {
-    .form-container {
-        width: 80%;
-    }
-}
+
 
 form {
     padding: 20px;
@@ -41,8 +37,8 @@ form {
 
 input:focus {
     outline: none;
-    border-color: rgba(70,141,203,255);
-    box-shadow: 0 0 10px rgba(70,141,203,255);
+    border-color: rgb(122, 137, 223);
+    box-shadow: 0 0 10px rgb(122, 137, 223);
 }
 
 .row {
@@ -52,7 +48,7 @@ input:focus {
 }
 
 .short {
-    width: 47%;
+    width: 49%;
 }
 
 .agree {
@@ -64,7 +60,7 @@ label {
 }
 
 button {
-    width: 47%;
+    width: 49%;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -83,3 +79,22 @@ button {
 }
 
 
+@media screen and (max-width: 768px) {
+    .form-container {
+        width: 80%;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .short {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .agree {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
