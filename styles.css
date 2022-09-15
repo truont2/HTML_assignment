@@ -8,19 +8,22 @@ h1 {
     text-align: center;
 }
 
-body {
+/* body {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .form-container {
-  width: 30%;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
 }
-
-
 
 form {
     padding: 20px;
@@ -28,11 +31,10 @@ form {
 
 .form-input {
     width: 100%;
-    padding: 15px;
+    
     margin-bottom: 1rem;
-    border-radius: 4px;
-    border: 1px solid lightgray;
-    font-size: 20px
+    
+    
 }
 
 input:focus {
@@ -40,10 +42,18 @@ input:focus {
     border-color: rgb(122, 137, 223);
     box-shadow: rgb(122, 137, 223) 0px 0px 16px;
 }
+
 .row {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+.signup-form__row {
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+    margin: 5px;
 }
 
 .short {
@@ -76,6 +86,16 @@ button {
 #signIn {
     background-color: rgba(92,184,92,255)
 }
+
+.signup-form__input,
+.signup-form__btn {
+    flex-grow: 1;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    font-size: 20px
+}
+
 
 
 @media screen and (max-width: 768px) {
