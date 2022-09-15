@@ -8,13 +8,13 @@ h1 {
     text-align: center;
 }
 
-/* body {
+body {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
 
 .form-container {
     border: 1px solid black;
@@ -29,24 +29,10 @@ form {
     padding: 20px;
 }
 
-.form-input {
-    width: 100%;
-    
-    margin-bottom: 1rem;
-    
-    
-}
-
 input:focus {
     outline: none;
     border-color: rgb(122, 137, 223);
     box-shadow: rgb(122, 137, 223) 0px 0px 16px;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
 }
 
 .signup-form__row {
@@ -56,28 +42,12 @@ input:focus {
     margin: 5px;
 }
 
-.short {
-    width: 49%;
-}
-
 .agree {
     width: 30%;
 }
 
 label {
     margin-left: 10px;
-}
-
-button {
-    width: 49%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    font-size: 20px;
-}
-
-.buttons {
-    margin-top: 10px;
 }
 
 #register {
@@ -89,7 +59,7 @@ button {
 
 .signup-form__input,
 .signup-form__btn {
-    flex-grow: 1;
+    flex: 1;
     padding: 15px;
     border-radius: 4px;
     border: 1px solid lightgray;

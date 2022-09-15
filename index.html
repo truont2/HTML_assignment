@@ -12,6 +12,7 @@
         <h1>Sign Up</h1>
         <form >
             <div class="signup-form__row">
+                <!-- by putting two elements here with flex grow 1, wil split the div into two sections -->
                 <input placeholder="First Name" class="signup-form__input short"/>
                 <input placeholder="Last Name" class="signup-form__input short"/>
             </div>
@@ -37,9 +38,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row buttons">
-                <button id="register">Register</button>
-                <button id="signIn"> Sign In</button>
+            <div class="signup-form__row buttons">
+                <button id="register" class="signup-form__btn">Register</button>
+                <button id="signIn" class="signup-form__btn"> Sign In</button>
             </div>
           </form>
     </div>
